@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The TWRP Open Source Project
+# Copyright (C) 2023 The TWRP Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -44,7 +44,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_x689_h696-user 11 RP1A.200720.011 131875 release-keys"
+    PRIVATE_BUILD_DESC="vnd_x689_h696-user 11 RP1A.200720.011 190710 release-keys"
 
-BUILD_FINGERPRINT := Infinix/X689-GL/Infinix-X689:11/RP1A.200720.011/221021V528:user/release-keys
+BUILD_FINGERPRINT := Infinix/X689-GL/Infinix-X689:11/RP1A.200720.011/221216V532:user/release-keys
 
