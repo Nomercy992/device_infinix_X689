@@ -70,7 +70,7 @@ TARGET_KERNEL_CONFIG := X689_defconfig
 TARGET_KERNEL_SOURCE := kernel/infinix/X689
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Infinix-X689,Infinix-X689B,FULL-64
+TARGET_OTA_ASSERT_DEVICE := X689,X689B,FULL-64
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
@@ -132,7 +132,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_CRYPTO_FBE := true
 
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
@@ -157,8 +156,8 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
-​TW_Y_OFFSET := 120
-TW_H_OFFSET := -120
+​​TW_Y_OFFSET := 20
+TW_H_OFFSET := -40
 ​TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_REPACKTOOLS := true
